@@ -17,6 +17,7 @@ You talk to the plants. You do not replace Chief Architect inside a factory.
 | CUDA kernels | cursor-cuda-lab | Human types. Still a lab. |
 | VLA / RL policy / MuJoCo train | cursor-deep-learning-factory | Factory implements from spec. |
 | Swarm / mission agent | cursor-agent-factory | LangChain + LangSmith. |
+| Grok / Cursor SDK product | cursor-grok-factory | `@init-grok`. Grok-first. LangSmith tracing on. |
 | Teleop / fleet UI | cursor-fullstack-factory | Spec-driven. |
 | iOS gamepad | cursor-swift-factory | Only if ops recorded iOS. |
 | Editor panel | cursor-extension-factory | Only if ops recorded it. |

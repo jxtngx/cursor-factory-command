@@ -17,6 +17,7 @@ description: "Map of Cursor labs, factories, and tools this command repo may sta
 - cursor-zephyr-factory — Zephyr, native_sim, `@init-firmware`
 - cursor-deep-learning-factory — PyTorch / Hugging Face
 - cursor-agent-factory — LangChain / LangSmith / Harbor
+- cursor-grok-factory — Grok + Cursor SDK, LangSmith always, Harbor (`@init-grok`)
 - cursor-fullstack-factory — apps
 - cursor-swift-factory — iOS / macOS / watchOS
 - cursor-extension-factory — TS host + Rust crate

@@ -33,6 +33,7 @@ Plants it commands (you clone those separately):
 | [cursor-cuda-lab](https://github.com/jxtngx/cursor-cuda-lab) | lab | Kernels if the VLA path needs them. **You type.** |
 | [cursor-deep-learning-factory](https://github.com/jxtngx/cursor-deep-learning-factory) | factory | VLA / policy train and finetune. **Team implements.** |
 | [cursor-agent-factory](https://github.com/jxtngx/cursor-agent-factory) | factory | Swarm / mission agent (LangChain + LangSmith). **Team implements.** |
+| [cursor-grok-factory](https://github.com/jxtngx/cursor-grok-factory) | factory | Grok + Cursor SDK product. **Team implements.** `@init-grok` |
 | [cursor-fullstack-factory](https://github.com/jxtngx/cursor-fullstack-factory) | factory | Teleop, fleet dashboard. **Team implements.** |
 | [cursor-swift-factory](https://github.com/jxtngx/cursor-swift-factory) | factory | Optional iOS gamepad / companion. **Team implements.** |
 | [cursor-extension-factory](https://github.com/jxtngx/cursor-extension-factory) | factory | Optional Cursor/VS Code robot panel. **Team implements.** |
