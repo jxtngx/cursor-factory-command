@@ -1,12 +1,14 @@
 ---
-description: Robotics, RTOS, and CUDA slices stay labs. Humans type those.
+description: CUDA slices stay a lab. ROS 2 and Zephyr campaign work goes to factories.
 globs:
   - "**/*"
 alwaysApply: true
 ---
 
-# Labs stay labs
+# Labs vs factories
 
-cursor-robotics-lab, cursor-rtos-lab, and cursor-cuda-lab are not factories.
-Do not instruct their agents to implement the campaign.
-Route the human to `@start-lesson` in those repos.
+cursor-cuda-lab remains a lab. The human types CUDA kernels.
+cursor-robotics-lab and cursor-rtos-lab are **learning** repos.
+Campaign ROS 2 goes to cursor-ros2-factory (`@init-robot`).
+Campaign Zephyr goes to cursor-zephyr-factory (`@init-firmware`).
+Do not instruct lab tutors to implement the campaign.

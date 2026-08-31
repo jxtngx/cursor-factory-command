@@ -2,18 +2,20 @@
 
 Command does not vendor these. Clone what the campaign routes.
 
-## Labs
+## Labs (learn, or CUDA kernels)
 
 | Repo | Open when |
 | --- | --- |
-| https://github.com/jxtngx/cursor-robotics-lab | ROS 2, C++20 |
-| https://github.com/jxtngx/cursor-rtos-lab | Zephyr sensors |
 | https://github.com/jxtngx/cursor-cuda-lab | CUDA kernels |
+| https://github.com/jxtngx/cursor-robotics-lab | Learn ROS 2 (not a campaign plant) |
+| https://github.com/jxtngx/cursor-rtos-lab | Learn Zephyr (not a campaign plant) |
 
 ## Factories
 
 | Repo | Open when |
 | --- | --- |
+| https://github.com/jxtngx/cursor-ros2-factory | ROS 2 product (`@init-robot`) |
+| https://github.com/jxtngx/cursor-zephyr-factory | Zephyr firmware (`@init-firmware`) |
 | https://github.com/jxtngx/cursor-deep-learning-factory | VLA / RL |
 | https://github.com/jxtngx/cursor-agent-factory | swarm agent |
 | https://github.com/jxtngx/cursor-fullstack-factory | teleop UI |

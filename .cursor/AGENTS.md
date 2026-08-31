@@ -10,8 +10,8 @@ You do not implement robots, VLAs, or Dashboards here.
 
 - `@init-campaign` always starts as `factory-ops`.
 - Spec before staffing. No plant is opened "just to scaffold."
-- Labs stay labs: [cursor-robotics-lab](https://github.com/jxtngx/cursor-robotics-lab), [cursor-rtos-lab](https://github.com/jxtngx/cursor-rtos-lab), [cursor-cuda-lab](https://github.com/jxtngx/cursor-cuda-lab). The human types those slices.
-- Factories implement from a spec: deep-learning, agent, fullstack, swift, extension.
+- Labs stay labs: [cursor-cuda-lab](https://github.com/jxtngx/cursor-cuda-lab) (human types kernels). [cursor-robotics-lab](https://github.com/jxtngx/cursor-robotics-lab) and [cursor-rtos-lab](https://github.com/jxtngx/cursor-rtos-lab) are learning only.
+- Factories implement from a spec: ros2, zephyr, deep-learning, agent, fullstack, swift, extension.
 - Example mission references Reachy Mini and MicroDuck **as a class**. Do not copy their CAD, trademarks as product names, or SDK trees.
 - Sim-first. Do not require a purchased robot to freeze the spec.
 - One sentence per line in markdown. No emojis.

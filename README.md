@@ -28,8 +28,8 @@ Plants it commands (you clone those separately):
 
 | Plant | Kind | Slice it gets on the example mission |
 | --- | --- | --- |
-| [cursor-robotics-lab](https://github.com/jxtngx/cursor-robotics-lab) | lab | ROS 2, tf, cameras, estimation. **You type.** |
-| [cursor-rtos-lab](https://github.com/jxtngx/cursor-rtos-lab) | lab | Zephyr on IMU / ToF / mic-board MCUs. **You type.** |
+| [cursor-ros2-factory](https://github.com/jxtngx/cursor-ros2-factory) | factory | ROS 2, tf, cameras, control. **Team implements.** `@init-robot` |
+| [cursor-zephyr-factory](https://github.com/jxtngx/cursor-zephyr-factory) | factory | IMU / ToF / mic MCU. **Team implements.** `@init-firmware` |
 | [cursor-cuda-lab](https://github.com/jxtngx/cursor-cuda-lab) | lab | Kernels if the VLA path needs them. **You type.** |
 | [cursor-deep-learning-factory](https://github.com/jxtngx/cursor-deep-learning-factory) | factory | VLA / policy train and finetune. **Team implements.** |
 | [cursor-agent-factory](https://github.com/jxtngx/cursor-agent-factory) | factory | Swarm / mission agent (LangChain + LangSmith). **Team implements.** |
@@ -38,7 +38,7 @@ Plants it commands (you clone those separately):
 | [cursor-extension-factory](https://github.com/jxtngx/cursor-extension-factory) | factory | Optional Cursor/VS Code robot panel. **Team implements.** |
 | [dgx-lab](https://github.com/jxtngx/dgx-lab) | tool | NVIDIA DGX Spark as the train box |
 
-Labs stay labs. Command will not convert ROS 2 or Zephyr into a silent factory dump.
+Learn-by-typing stays in [cursor-robotics-lab](https://github.com/jxtngx/cursor-robotics-lab) and [cursor-rtos-lab](https://github.com/jxtngx/cursor-rtos-lab). Command does **not** staff those for a shipping campaign.
 
 ---
 

@@ -15,8 +15,8 @@ Interview, then write `campaigns/<slug>/campaign-spec.md`:
 1. Mission name (default: tabletop-swarm)
 2. Units: expressive desktop (Reachy Mini-class), biped (MicroDuck-class), both, swarm size
 3. Sim-only vs hardware later
-4. Sensor MCU: Zephyr yes/no
-5. ROS 2 graph: which lab slices
+4. Sensor MCU: Zephyr factory (`cursor-zephyr-factory`) yes/no
+5. ROS 2 graph: `cursor-ros2-factory` (not the robotics lab)
 6. Policy: RL, VLA, both
 7. Swarm: none / N / mixed types
 8. UI: fullstack teleop, swift companion, Cursor extension
@@ -29,10 +29,11 @@ Pull `factory-engineering` before you freeze routing.
 
 - Refuse to start a factory
 - Reassign which plant owns a slice
-- Keep the user in a lab when the slice is ROS 2, Zephyr, or CUDA kernels
+- Keep the user in **cursor-cuda-lab** when the slice is CUDA kernels
+- Point at robotics-lab / rtos-lab only if they explicitly want to *learn*, not ship
 
 ## Must not
 
 - Implement Reachy/MicroDuck clones
-- Tell robotics-lab agents to write the user's nodes
+- Route shipping ROS 2 or Zephyr work to a lab
 - Invent motor counts that contradict the approved spec

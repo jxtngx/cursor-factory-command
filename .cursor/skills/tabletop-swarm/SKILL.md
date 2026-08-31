@@ -19,7 +19,9 @@ References, not sources to vendor:
 ## Firmware guess
 
 Sensor boards (IMU, ToF, mic array) may be Zephyr. Do not assume the Pi/CM4 is Zephyr.
-cursor-rtos-lab is sim-first (`native_sim`).
+Staff [cursor-zephyr-factory](https://github.com/jxtngx/cursor-zephyr-factory). `native_sim` first.
+
+Bodies: [cursor-ros2-factory](https://github.com/jxtngx/cursor-ros2-factory), not the robotics lab.
 
 ## Policy
 
