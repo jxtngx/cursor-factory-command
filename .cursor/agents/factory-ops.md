@@ -19,9 +19,10 @@ Interview, then write `campaigns/<slug>/campaign-spec.md`:
 5. ROS 2 graph: `cursor-ros2-factory` (not the robotics lab)
 6. Policy: RL, VLA, both
 7. Swarm: none / N / mixed types
-8. UI: fullstack teleop, swift companion, Cursor extension
-9. Train box: DGX Spark or other
-10. What would falsify the campaign (one sentence)
+8. Grok / Cursor SDK product: `cursor-grok-factory` (`@init-grok`) yes/no; pairing is chosen in that factory (together | grok-only | cursor-only)
+9. UI: fullstack teleop, swift companion, Cursor extension
+10. Train box: DGX Spark or other
+11. What would falsify the campaign (one sentence)
 
 Pull `factory-engineering` before you freeze routing.
 
