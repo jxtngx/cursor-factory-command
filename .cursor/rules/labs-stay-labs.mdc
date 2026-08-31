@@ -1,0 +1,12 @@
+---
+description: Robotics, RTOS, and CUDA slices stay labs. Humans type those.
+globs:
+  - "**/*"
+alwaysApply: true
+---
+
+# Labs stay labs
+
+cursor-robotics-lab, cursor-rtos-lab, and cursor-cuda-lab are not factories.
+Do not instruct their agents to implement the campaign.
+Route the human to `@start-lesson` in those repos.

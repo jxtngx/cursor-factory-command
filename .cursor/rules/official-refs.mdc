@@ -1,0 +1,15 @@
+---
+description: Reachy Mini and MicroDuck are class references. Do not clone their IP.
+globs:
+  - "**/*"
+alwaysApply: true
+---
+
+# Official references
+
+- https://huggingface.co/docs/reachy_mini/en/index
+- https://pollen-robotics.com/microduck/
+- https://github.com/pollen-robotics/microduck
+
+Cite them. Do not vendor their CAD, meshes, or SDK as ours.
+Campaign units get new names in the spec.

@@ -1,0 +1,10 @@
+---
+description: No emojis.
+globs:
+  - "**/*"
+alwaysApply: true
+---
+
+# No emojis
+
+Do not add emojis to markdown, comments, or commit messages.

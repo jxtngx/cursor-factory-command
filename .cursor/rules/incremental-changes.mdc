@@ -1,0 +1,10 @@
+---
+description: Small diffs. One campaign change per turn unless asked.
+globs:
+  - "**/*"
+alwaysApply: true
+---
+
+# Incremental changes
+
+Do not rewrite the fleet map as a drive-by.
