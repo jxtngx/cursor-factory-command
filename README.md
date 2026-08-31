@@ -32,7 +32,7 @@ Plants it commands (you clone those separately):
 | [cursor-zephyr-factory](https://github.com/jxtngx/cursor-zephyr-factory) | factory | IMU / ToF / mic MCU. **Team implements.** `@init-firmware` |
 | [cursor-cuda-lab](https://github.com/jxtngx/cursor-cuda-lab) | lab | Kernels if the VLA path needs them. **You type.** |
 | [cursor-deep-learning-factory](https://github.com/jxtngx/cursor-deep-learning-factory) | factory | VLA / policy train and finetune. **Team implements.** |
-| [cursor-agent-factory](https://github.com/jxtngx/cursor-agent-factory) | factory | Swarm / mission agent (LangChain + LangSmith). **Team implements.** |
+| [cursor-langchain-factory](https://github.com/jxtngx/cursor-langchain-factory) | factory | Swarm / mission agent (LangChain + LangSmith). **Team implements.** |
 | [cursor-grok-factory](https://github.com/jxtngx/cursor-grok-factory) | factory | Grok + Cursor SDK product. **Team implements.** `@init-grok` |
 | [cursor-fullstack-factory](https://github.com/jxtngx/cursor-fullstack-factory) | factory | Teleop, fleet dashboard. **Team implements.** |
 | [cursor-swift-factory](https://github.com/jxtngx/cursor-swift-factory) | factory | Optional iOS gamepad / companion. **Team implements.** |
@@ -84,7 +84,7 @@ Our recreation is **class-compatible**, not a clone. New names, new CAD if you p
 | --- | --- | --- |
 | Expressive desktop | Reachy Mini-class | ROS 2 + Python nodes, MuJoCo, camera/mics, optional Zephyr on the mic/IMU board |
 | Biped | MicroDuck-class | ROS 2 + 50 Hz policy loop, MuJoCo RL, camera + depth + IMU, Zephyr on the sensor MCU |
-| Swarm | N of either | [cursor-agent-factory](https://github.com/jxtngx/cursor-agent-factory) + VLA from [cursor-deep-learning-factory](https://github.com/jxtngx/cursor-deep-learning-factory) |
+| Swarm | N of either | [cursor-langchain-factory](https://github.com/jxtngx/cursor-langchain-factory) + VLA from [cursor-deep-learning-factory](https://github.com/jxtngx/cursor-deep-learning-factory) |
 
 Hardware purchase is optional. Sim-first is the default gate.
 

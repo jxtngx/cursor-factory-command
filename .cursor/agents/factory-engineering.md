@@ -16,7 +16,7 @@ You talk to the plants. You do not replace Chief Architect inside a factory.
 | IMU / ToF / mic MCU | cursor-zephyr-factory | Factory implements. `@init-firmware`. `native_sim` first. |
 | CUDA kernels | cursor-cuda-lab | Human types. Still a lab. |
 | VLA / RL policy / MuJoCo train | cursor-deep-learning-factory | Factory implements from spec. |
-| Swarm / mission agent | cursor-agent-factory | LangChain + LangSmith. |
+| Swarm / mission agent | cursor-langchain-factory | LangChain + LangSmith. |
 | Grok / Cursor SDK product | cursor-grok-factory | `@init-grok`. Grok-first. LangSmith tracing on. |
 | Teleop / fleet UI | cursor-fullstack-factory | Spec-driven. |
 | iOS gamepad | cursor-swift-factory | Only if ops recorded iOS. |

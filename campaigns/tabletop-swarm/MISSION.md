@@ -23,7 +23,7 @@ It stresses the whole fleet in one campaign:
 | Sensor MCU (IMU, ToF, maybe mics) | [cursor-zephyr-factory](https://github.com/jxtngx/cursor-zephyr-factory) (`@init-firmware`, `native_sim` first) |
 | VLA and/or RL policy, MuJoCo, HF | [cursor-deep-learning-factory](https://github.com/jxtngx/cursor-deep-learning-factory) |
 | CUDA if the VLA path needs kernels | [cursor-cuda-lab](https://github.com/jxtngx/cursor-cuda-lab) |
-| Swarm / mission agent | [cursor-agent-factory](https://github.com/jxtngx/cursor-agent-factory) |
+| Swarm / mission agent | [cursor-langchain-factory](https://github.com/jxtngx/cursor-langchain-factory) |
 | Teleop + fleet view | [cursor-fullstack-factory](https://github.com/jxtngx/cursor-fullstack-factory) |
 | Optional phone gamepad | [cursor-swift-factory](https://github.com/jxtngx/cursor-swift-factory) |
 | Train box | [dgx-lab](https://github.com/jxtngx/dgx-lab) |
