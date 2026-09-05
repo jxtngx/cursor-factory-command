@@ -37,6 +37,7 @@ Plants it commands (you clone those separately):
 | [cursor-fullstack-factory](https://github.com/jxtngx/cursor-fullstack-factory) | factory | Teleop, fleet dashboard. **Team implements.** |
 | [cursor-swift-factory](https://github.com/jxtngx/cursor-swift-factory) | factory | Optional iOS gamepad / companion. **Team implements.** |
 | [cursor-kotlin-factory](https://github.com/jxtngx/cursor-kotlin-factory) | factory | Optional ATAK-CIV / CivTAK field client. **Team implements.** `@init-app` |
+| [cursor-cesium-factory](https://github.com/jxtngx/cursor-cesium-factory) | factory | Optional 3D globe / SA overlay. **Team implements.** `@init-globe` |
 | [cursor-extension-factory](https://github.com/jxtngx/cursor-extension-factory) | factory | Optional Cursor/VS Code robot panel. **Team implements.** |
 | [dgx-lab](https://github.com/jxtngx/dgx-lab) | tool | NVIDIA DGX Spark as the train box |
 
