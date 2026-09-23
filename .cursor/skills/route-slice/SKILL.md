@@ -1,3 +1,9 @@
+---
+name: route-slice
+description: Route Slice
+disable-model-invocation: true
+---
+
 # Route Slice
 
 Send one campaign slice to one plant. Engineering owns the call.

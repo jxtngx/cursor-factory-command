@@ -1,3 +1,9 @@
+---
+name: status
+description: Status
+disable-model-invocation: true
+---
+
 # Status
 
 Single board for the campaign. Ops presents it.

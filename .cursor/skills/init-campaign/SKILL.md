@@ -1,3 +1,9 @@
+---
+name: init-campaign
+description: Init Campaign
+disable-model-invocation: true
+---
+
 # Init Campaign
 
 Open Factory Ops. Discover the mission. Freeze a spec. Do not staff plants yet.

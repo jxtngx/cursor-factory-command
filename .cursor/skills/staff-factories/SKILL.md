@@ -1,3 +1,9 @@
+---
+name: staff-factories
+description: Staff Factories
+disable-model-invocation: true
+---
+
 # Staff Factories
 
 After an approved campaign spec, assign plants and owners.
