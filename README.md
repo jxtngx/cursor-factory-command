@@ -35,13 +35,6 @@ Plants it commands (you clone those separately):
 | [cursor-extension-factory](https://github.com/jxtngx/cursor-extension-factory) | factory | Optional Cursor/VS Code robot panel. **Team implements.** |
 | [dgx-lab](https://github.com/jxtngx/dgx-lab) | train box | NVIDIA DGX Spark as the train box |
 
-Not staffed. Do not open these as campaign plants:
-
-- [cursor-ros2-factory](https://github.com/jxtngx/cursor-ros2-factory)
-- [cursor-zephyr-factory](https://github.com/jxtngx/cursor-zephyr-factory)
-- [cursor-kotlin-factory](https://github.com/jxtngx/cursor-kotlin-factory)
-- [cursor-cesium-factory](https://github.com/jxtngx/cursor-cesium-factory)
-
 ---
 
 ## Directorate
