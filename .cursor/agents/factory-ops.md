@@ -28,12 +28,9 @@ Pull `factory-engineering` before you freeze routing.
 
 - Refuse to start a factory
 - Reassign which plant owns a slice
-- Keep the user in **cursor-cuda-lab** when the slice is CUDA kernels
-- Point at robotics-lab / rtos-lab only if they explicitly want to *learn*, not ship
 
 ## Must not
 
 - Implement Reachy/MicroDuck clones
 - Staff cursor-ros2-factory, cursor-zephyr-factory, cursor-kotlin-factory, or cursor-cesium-factory
-- Route ROS 2, Zephyr, Kotlin, or Cesium work to a lab and call it a plant
 - Invent motor counts that contradict the approved spec

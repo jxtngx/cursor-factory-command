@@ -1,5 +1,5 @@
 # Routes
 
-| Slice | Plant | Kind | Init / lesson | Owner |
+| Slice | Plant | Kind | Init | Owner |
 | --- | --- | --- | --- | --- |
-| | | lab or factory or tool | | |
+| | | factory or train box | | |

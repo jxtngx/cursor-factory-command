@@ -20,21 +20,20 @@ PyTorch / Hugging Face. Coordination is a LangGraph agent.
 | This repo | Not this repo |
 | --- | --- |
 | C2 harness | A `cursor-*-factory` that implements tickets |
-| Directorate of two | A lab where you type every driver |
+| Directorate of two | A plant's Chief Architect |
 | Routes work | Copies Pollen/HF CAD or their SDK |
 
 Plants it commands (you clone those separately):
 
 | Plant | Kind | Slice it gets on the example mission |
 | --- | --- | --- |
-| [cursor-cuda-lab](https://github.com/jxtngx/cursor-cuda-lab) | lab | Kernels if the VLA path needs them. **You type.** |
 | [cursor-deep-learning-factory](https://github.com/jxtngx/cursor-deep-learning-factory) | factory | VLA / policy train and finetune. **Team implements.** |
 | [cursor-langchain-factory](https://github.com/jxtngx/cursor-langchain-factory) | factory | Swarm / mission agent (LangChain + LangSmith). **Team implements.** |
 | [cursor-grok-factory](https://github.com/jxtngx/cursor-grok-factory) | factory | Grok + Cursor SDK product. **Team implements.** `@init-grok` |
 | [cursor-fullstack-factory](https://github.com/jxtngx/cursor-fullstack-factory) | factory | Teleop, fleet dashboard. **Team implements.** |
 | [cursor-swift-factory](https://github.com/jxtngx/cursor-swift-factory) | factory | Optional iOS gamepad / companion. **Team implements.** |
 | [cursor-extension-factory](https://github.com/jxtngx/cursor-extension-factory) | factory | Optional Cursor/VS Code robot panel. **Team implements.** |
-| [dgx-lab](https://github.com/jxtngx/dgx-lab) | tool | NVIDIA DGX Spark as the train box |
+| [dgx-lab](https://github.com/jxtngx/dgx-lab) | train box | NVIDIA DGX Spark as the train box |
 
 Not staffed. Do not open these as campaign plants:
 
@@ -42,8 +41,6 @@ Not staffed. Do not open these as campaign plants:
 - [cursor-zephyr-factory](https://github.com/jxtngx/cursor-zephyr-factory)
 - [cursor-kotlin-factory](https://github.com/jxtngx/cursor-kotlin-factory)
 - [cursor-cesium-factory](https://github.com/jxtngx/cursor-cesium-factory)
-
-Learn-by-typing stays in [cursor-robotics-lab](https://github.com/jxtngx/cursor-robotics-lab) and [cursor-rtos-lab](https://github.com/jxtngx/cursor-rtos-lab). Command does **not** staff those, and it does **not** staff the four factories above.
 
 ---
 
@@ -98,23 +95,23 @@ Hardware purchase is optional. Sim-first is the default gate.
 
 **Ops must not:** implement tickets, pick a motor bus to look busy.
 
-**Engineering may:** map slices to plants, reject a route that turns a lab into a factory, require sim-first.
+**Engineering may:** map slices to plants, reject a route outside the staffed factories and dgx-lab, require sim-first.
 
 **Engineering must not:** replace a plant's Chief Architect, sneak-implement a VLA or a dashboard.
 
-Definition of done for Command: every slice has a plant, a spec pointer, and a named human or factory owner. The robot moving is **not** this repo's done.
+Definition of done for Command: every slice has a plant, a spec pointer, and a factory owner. The robot moving is **not** this repo's done.
 
 ## Daily loop
 
 1. `@init-campaign` (or reopen `campaigns/tabletop-swarm/`)
 2. Approve the spec
 3. `@staff-factories` — clones/paths, who owns which slice
-4. Work in the plants (labs you type; factories you spec)
+4. Work in the plants (you spec; the factory team implements)
 5. `@status` here as the single board
 
 ## Harness
 
 - **`.cursor/agents/`** — factory-ops, factory-engineering
 - **`.cursor/commands/`** — `@init-campaign`, `@staff-factories`, `@route-slice`, `@status`
-- **`.cursor/rules/`** — C2 only, labs stay labs, official robot docs as references
+- **`.cursor/rules/`** — C2 only, factories and dgx-lab only, official robot docs as references
 - **`campaigns/`** — one folder per mission

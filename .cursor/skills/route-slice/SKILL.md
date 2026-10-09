@@ -17,9 +17,9 @@ Send one campaign slice to one plant. Engineering owns the call.
 ## MUST
 
 - Confirm the slice exists in `routes.md`
-- Restate plant, kind (lab|factory|tool), next command
-- If lab: `@start-lesson` and the lesson id
+- Restate plant, kind (factory or train box), next command
 - If factory: the plant's `@init-*` and which requirements file to copy
+- If dgx-lab: the train job the spec named
 - Stop
 
 ## MUST NOT

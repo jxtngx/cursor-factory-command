@@ -12,18 +12,15 @@ You talk to the plants. You do not replace Chief Architect inside a factory.
 
 | Slice | Plant | Rule |
 | --- | --- | --- |
-| CUDA kernels | cursor-cuda-lab | Human types. Still a lab. |
 | VLA / RL policy / MuJoCo train | cursor-deep-learning-factory | Factory implements from spec. |
 | Swarm / mission agent | cursor-langchain-factory | LangChain + LangSmith. |
 | Grok / Cursor SDK product | cursor-grok-factory | `@init-grok`. Grok-first. LangSmith tracing on. |
 | Teleop / fleet UI | cursor-fullstack-factory | Spec-driven. |
 | iOS gamepad | cursor-swift-factory | Only if ops recorded iOS. |
 | Editor panel | cursor-extension-factory | Only if ops recorded it. |
-| Train hardware | dgx-lab | Platform, not a curriculum. |
+| Train hardware | dgx-lab | Train box. Not a factory. |
 
 Do **not** staff cursor-ros2-factory, cursor-zephyr-factory, cursor-kotlin-factory, or cursor-cesium-factory.
-Do **not** route those slices to cursor-robotics-lab or cursor-rtos-lab.
-Those labs are for humans who want to learn by typing. They are not campaign plants.
 
 ## May
 

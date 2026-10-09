@@ -20,7 +20,6 @@ It stresses the whole fleet in one campaign:
 | Need | Where Command sends it |
 | --- | --- |
 | VLA and/or RL policy, MuJoCo, HF | [cursor-deep-learning-factory](https://github.com/jxtngx/cursor-deep-learning-factory) |
-| CUDA if the VLA path needs kernels | [cursor-cuda-lab](https://github.com/jxtngx/cursor-cuda-lab) |
 | Swarm / mission agent | [cursor-langchain-factory](https://github.com/jxtngx/cursor-langchain-factory) |
 | Teleop + fleet view | [cursor-fullstack-factory](https://github.com/jxtngx/cursor-fullstack-factory) |
 | Optional phone gamepad | [cursor-swift-factory](https://github.com/jxtngx/cursor-swift-factory) |

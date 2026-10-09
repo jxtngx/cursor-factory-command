@@ -2,14 +2,6 @@
 
 Command does not vendor these. Clone what the campaign routes.
 
-## Labs (learn, or CUDA kernels)
-
-| Repo | Open when |
-| --- | --- |
-| https://github.com/jxtngx/cursor-cuda-lab | CUDA kernels |
-| https://github.com/jxtngx/cursor-robotics-lab | Learn ROS 2 (not a campaign plant) |
-| https://github.com/jxtngx/cursor-rtos-lab | Learn Zephyr (not a campaign plant) |
-
 ## Factories
 
 | Repo | Open when |
@@ -30,7 +22,7 @@ Do not open these as campaign plants:
 - https://github.com/jxtngx/cursor-kotlin-factory
 - https://github.com/jxtngx/cursor-cesium-factory
 
-## Tools
+## Train box
 
 | Repo | Open when |
 | --- | --- |
