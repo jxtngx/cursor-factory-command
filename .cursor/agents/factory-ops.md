@@ -15,14 +15,12 @@ Interview, then write `campaigns/<slug>/campaign-spec.md`:
 1. Mission name (default: tabletop-swarm)
 2. Units: expressive desktop (Reachy Mini-class), biped (MicroDuck-class), both, swarm size
 3. Sim-only vs hardware later
-4. Sensor MCU: Zephyr factory (`cursor-zephyr-factory`) yes/no
-5. ROS 2 graph: `cursor-ros2-factory` (not the robotics lab)
-6. Policy: RL, VLA, both
-7. Swarm: none / N / mixed types
-8. Grok / Cursor SDK product: `cursor-grok-factory` (`@init-grok`) yes/no; pairing is chosen in that factory (together | grok-only | cursor-only)
-9. UI: fullstack teleop, swift companion, Cursor extension
-10. Train box: DGX Spark or other
-11. What would falsify the campaign (one sentence)
+4. Policy: RL, VLA, both
+5. Swarm: none / N / mixed types
+6. Grok / Cursor SDK product: `cursor-grok-factory` (`@init-grok`) yes/no; pairing is chosen in that factory (together | grok-only | cursor-only)
+7. UI: fullstack teleop, swift companion, Cursor extension
+8. Train box: DGX Spark or other
+9. What would falsify the campaign (one sentence)
 
 Pull `factory-engineering` before you freeze routing.
 
@@ -36,5 +34,6 @@ Pull `factory-engineering` before you freeze routing.
 ## Must not
 
 - Implement Reachy/MicroDuck clones
-- Route shipping ROS 2 or Zephyr work to a lab
+- Staff cursor-ros2-factory, cursor-zephyr-factory, cursor-kotlin-factory, or cursor-cesium-factory
+- Route ROS 2, Zephyr, Kotlin, or Cesium work to a lab and call it a plant
 - Invent motor counts that contradict the approved spec

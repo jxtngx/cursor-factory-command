@@ -1,5 +1,5 @@
 ---
-description: CUDA slices stay a lab. ROS 2 and Zephyr campaign work goes to factories.
+description: CUDA stays a lab. ROS 2, Zephyr, Kotlin, and Cesium factories are not staffed.
 globs:
   - "**/*"
 alwaysApply: true
@@ -8,7 +8,6 @@ alwaysApply: true
 # Labs vs factories
 
 cursor-cuda-lab remains a lab. The human types CUDA kernels.
-cursor-robotics-lab and cursor-rtos-lab are **learning** repos.
-Campaign ROS 2 goes to cursor-ros2-factory (`@init-robot`).
-Campaign Zephyr goes to cursor-zephyr-factory (`@init-firmware`).
+cursor-robotics-lab and cursor-rtos-lab are learning repos. Do not staff them.
+Do not staff cursor-ros2-factory, cursor-zephyr-factory, cursor-kotlin-factory, or cursor-cesium-factory.
 Do not instruct lab tutors to implement the campaign.

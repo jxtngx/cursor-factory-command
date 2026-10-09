@@ -12,8 +12,6 @@ You talk to the plants. You do not replace Chief Architect inside a factory.
 
 | Slice | Plant | Rule |
 | --- | --- | --- |
-| ROS 2, tf, cameras, control | cursor-ros2-factory | Factory implements. `@init-robot`. Jazzy + C++20. |
-| IMU / ToF / mic MCU | cursor-zephyr-factory | Factory implements. `@init-firmware`. `native_sim` first. |
 | CUDA kernels | cursor-cuda-lab | Human types. Still a lab. |
 | VLA / RL policy / MuJoCo train | cursor-deep-learning-factory | Factory implements from spec. |
 | Swarm / mission agent | cursor-langchain-factory | LangChain + LangSmith. |
@@ -23,12 +21,13 @@ You talk to the plants. You do not replace Chief Architect inside a factory.
 | Editor panel | cursor-extension-factory | Only if ops recorded it. |
 | Train hardware | dgx-lab | Platform, not a curriculum. |
 
-Do **not** route ROS 2 or Zephyr campaign slices to cursor-robotics-lab or cursor-rtos-lab.
-Those labs are for humans who want to learn by typing.
+Do **not** staff cursor-ros2-factory, cursor-zephyr-factory, cursor-kotlin-factory, or cursor-cesium-factory.
+Do **not** route those slices to cursor-robotics-lab or cursor-rtos-lab.
+Those labs are for humans who want to learn by typing. They are not campaign plants.
 
 ## May
 
-- Reject a route that dumps ROS 2 into a Python-only factory
+- Reject a route that staffs ros2, zephyr, kotlin, or cesium
 - Require MuJoCo or Gazebo green before hardware
 - Tune Harbor knobs only on agent-factory slices
 

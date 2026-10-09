@@ -10,8 +10,7 @@ It interviews you, freezes a campaign spec, and **staffs the plants**.
 Example campaign in this checkout: **tabletop swarm** — legally distinct
 recreations in the class of [Reachy Mini](https://huggingface.co/docs/reachy_mini/en/index)
 and [Pollen MicroDuck](https://pollen-robotics.com/microduck/). Desktop expressive
-unit, biped RL unit, optional swarm. Sensors may run [Zephyr](https://docs.zephyrproject.org/latest/).
-Bodies speak [ROS 2](https://docs.ros.org/). Policies and VLAs train in
+unit, biped RL unit, optional swarm. Policies and VLAs train in
 PyTorch / Hugging Face. Coordination is a LangGraph agent.
 
 ---
@@ -28,20 +27,23 @@ Plants it commands (you clone those separately):
 
 | Plant | Kind | Slice it gets on the example mission |
 | --- | --- | --- |
-| [cursor-ros2-factory](https://github.com/jxtngx/cursor-ros2-factory) | factory | ROS 2, tf, cameras, control. **Team implements.** `@init-robot` |
-| [cursor-zephyr-factory](https://github.com/jxtngx/cursor-zephyr-factory) | factory | IMU / ToF / mic MCU. **Team implements.** `@init-firmware` |
 | [cursor-cuda-lab](https://github.com/jxtngx/cursor-cuda-lab) | lab | Kernels if the VLA path needs them. **You type.** |
 | [cursor-deep-learning-factory](https://github.com/jxtngx/cursor-deep-learning-factory) | factory | VLA / policy train and finetune. **Team implements.** |
 | [cursor-langchain-factory](https://github.com/jxtngx/cursor-langchain-factory) | factory | Swarm / mission agent (LangChain + LangSmith). **Team implements.** |
 | [cursor-grok-factory](https://github.com/jxtngx/cursor-grok-factory) | factory | Grok + Cursor SDK product. **Team implements.** `@init-grok` |
 | [cursor-fullstack-factory](https://github.com/jxtngx/cursor-fullstack-factory) | factory | Teleop, fleet dashboard. **Team implements.** |
 | [cursor-swift-factory](https://github.com/jxtngx/cursor-swift-factory) | factory | Optional iOS gamepad / companion. **Team implements.** |
-| [cursor-kotlin-factory](https://github.com/jxtngx/cursor-kotlin-factory) | factory | Optional ATAK-CIV / CivTAK field client. **Team implements.** `@init-app` |
-| [cursor-cesium-factory](https://github.com/jxtngx/cursor-cesium-factory) | factory | Optional 3D globe / SA overlay. **Team implements.** `@init-globe` |
 | [cursor-extension-factory](https://github.com/jxtngx/cursor-extension-factory) | factory | Optional Cursor/VS Code robot panel. **Team implements.** |
 | [dgx-lab](https://github.com/jxtngx/dgx-lab) | tool | NVIDIA DGX Spark as the train box |
 
-Learn-by-typing stays in [cursor-robotics-lab](https://github.com/jxtngx/cursor-robotics-lab) and [cursor-rtos-lab](https://github.com/jxtngx/cursor-rtos-lab). Command does **not** staff those for a shipping campaign.
+Not staffed. Do not open these as campaign plants:
+
+- [cursor-ros2-factory](https://github.com/jxtngx/cursor-ros2-factory)
+- [cursor-zephyr-factory](https://github.com/jxtngx/cursor-zephyr-factory)
+- [cursor-kotlin-factory](https://github.com/jxtngx/cursor-kotlin-factory)
+- [cursor-cesium-factory](https://github.com/jxtngx/cursor-cesium-factory)
+
+Learn-by-typing stays in [cursor-robotics-lab](https://github.com/jxtngx/cursor-robotics-lab) and [cursor-rtos-lab](https://github.com/jxtngx/cursor-rtos-lab). Command does **not** staff those, and it does **not** staff the four factories above.
 
 ---
 
@@ -80,12 +82,12 @@ Public references (do not paste their trees):
 - [Reachy Mini docs](https://huggingface.co/docs/reachy_mini/en/index) — expressive desktop, Pi CM4 (wireless), camera, 4 mics, speaker, Dynamixel Stewart head, [MuJoCo sim](https://huggingface.co/docs/reachy_mini/en/platforms/simulation/get_started)
 - [MicroDuck](https://pollen-robotics.com/microduck/) — 25 cm biped, 15 motors, camera, LiDAR/ToF, two IMUs, 50 Hz policy, [sim2real](https://github.com/pollen-robotics/microduck)
 
-Our recreation is **class-compatible**, not a clone. New names, new CAD if you print, new ROS 2 graph.
+Our recreation is **class-compatible**, not a clone. New names, new CAD if you print.
 
-| Unit | Class | Stack we choose |
+| Unit | Class | Stack Command staffs |
 | --- | --- | --- |
-| Expressive desktop | Reachy Mini-class | ROS 2 + Python nodes, MuJoCo, camera/mics, optional Zephyr on the mic/IMU board |
-| Biped | MicroDuck-class | ROS 2 + 50 Hz policy loop, MuJoCo RL, camera + depth + IMU, Zephyr on the sensor MCU |
+| Expressive desktop | Reachy Mini-class | MuJoCo sim and interaction policy in deep-learning-factory |
+| Biped | MicroDuck-class | MuJoCo RL, 50 Hz policy export, deep-learning-factory |
 | Swarm | N of either | [cursor-langchain-factory](https://github.com/jxtngx/cursor-langchain-factory) + VLA from [cursor-deep-learning-factory](https://github.com/jxtngx/cursor-deep-learning-factory) |
 
 Hardware purchase is optional. Sim-first is the default gate.
@@ -98,7 +100,7 @@ Hardware purchase is optional. Sim-first is the default gate.
 
 **Engineering may:** map slices to plants, reject a route that turns a lab into a factory, require sim-first.
 
-**Engineering must not:** replace a plant's Chief Architect, sneak-implement VLA or ROS.
+**Engineering must not:** replace a plant's Chief Architect, sneak-implement a VLA or a dashboard.
 
 Definition of done for Command: every slice has a plant, a spec pointer, and a named human or factory owner. The robot moving is **not** this repo's done.
 

@@ -1,6 +1,6 @@
 ---
 name: tabletop-swarm
-description: "Example campaign: Reachy Mini-class expressive desktop, MicroDuck-class biped, optional swarm. VLA, ROS 2, Zephyr sensors. Use with @init-campaign tabletop-swarm."
+description: "Example campaign: Reachy Mini-class expressive desktop, MicroDuck-class biped, optional swarm. VLA and RL in deep-learning-factory. Use with @init-campaign tabletop-swarm."
 ---
 
 # Tabletop swarm
@@ -12,16 +12,15 @@ References, not sources to vendor:
 
 ## Units
 
-- Expressive desktop: camera, mics, speaker, Stewart-like head, MuJoCo, ROS 2
-- Biped: ~15 DoF, camera, depth, dual IMU, 50 Hz policy, MuJoCo RL, ROS 2
-- Swarm: N units, agent-factory coordination, VLA from deep-learning-factory
+- Expressive desktop: camera, mics, speaker, Stewart-like head, MuJoCo
+- Biped: ~15 DoF, camera, depth, dual IMU, 50 Hz policy, MuJoCo RL
+- Swarm: N units, langchain-factory coordination, VLA from deep-learning-factory
 
-## Firmware guess
+## Plants
 
-Sensor boards (IMU, ToF, mic array) may be Zephyr. Do not assume the Pi/CM4 is Zephyr.
-Staff [cursor-zephyr-factory](https://github.com/jxtngx/cursor-zephyr-factory). `native_sim` first.
-
-Bodies: [cursor-ros2-factory](https://github.com/jxtngx/cursor-ros2-factory), not the robotics lab.
+Staff deep-learning-factory for sim and policy.
+Staff langchain-factory for the swarm graph.
+Do not staff cursor-ros2-factory, cursor-zephyr-factory, cursor-kotlin-factory, or cursor-cesium-factory.
 
 ## Policy
 

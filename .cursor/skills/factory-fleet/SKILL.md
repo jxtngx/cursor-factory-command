@@ -13,14 +13,21 @@ description: "Map of Cursor labs, factories, and tools this command repo may sta
 
 ## Factories (team implements)
 
-- cursor-ros2-factory — ROS 2 Jazzy, C++20, `@init-robot`
-- cursor-zephyr-factory — Zephyr, native_sim, `@init-firmware`
 - cursor-deep-learning-factory — PyTorch / Hugging Face
 - cursor-langchain-factory — LangChain (provider-agnostic), LangSmith, Harbor (`@init-langchain`)
 - cursor-grok-factory — Grok + Cursor SDK, LangSmith always, Harbor (`@init-grok`)
 - cursor-fullstack-factory — apps
 - cursor-swift-factory — iOS / macOS / watchOS
 - cursor-extension-factory — TS host + Rust crate
+
+## Not staffed
+
+Do not open these as campaign plants:
+
+- cursor-ros2-factory
+- cursor-zephyr-factory
+- cursor-kotlin-factory
+- cursor-cesium-factory
 
 ## Tools
 
