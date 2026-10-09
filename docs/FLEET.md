@@ -6,12 +6,12 @@ Command does not vendor these. Clone what the campaign routes.
 
 | Repo | Open when |
 | --- | --- |
-| https://github.com/jxtngx/cursor-deep-learning-factory | VLA / RL |
-| https://github.com/jxtngx/cursor-langchain-factory | swarm agent |
+| https://github.com/jxtngx/cursor-deep-learning-factory | PyTorch / Hugging Face |
+| https://github.com/jxtngx/cursor-langchain-factory | LangChain |
 | https://github.com/jxtngx/cursor-grok-factory | Grok + Cursor SDK (`@init-grok`) |
-| https://github.com/jxtngx/cursor-fullstack-factory | teleop UI |
-| https://github.com/jxtngx/cursor-swift-factory | iOS companion |
-| https://github.com/jxtngx/cursor-extension-factory | editor panel |
+| https://github.com/jxtngx/cursor-fullstack-factory | Fullstack app |
+| https://github.com/jxtngx/cursor-swift-factory | Swift app |
+| https://github.com/jxtngx/cursor-extension-factory | Cursor / Open VSX extension |
 
 ## Not staffed
 

@@ -17,7 +17,7 @@ Single board for the campaign. Ops presents it.
 ## MUST
 
 Table: slice, plant, kind, owner, state (spec / in-factory / blocked / done).
-Blockers that are "waiting on a robot in the mail" are not blockers if sim is green.
+A blocker that lives outside this repo is not a Command blocker.
 
 ## MUST NOT
 

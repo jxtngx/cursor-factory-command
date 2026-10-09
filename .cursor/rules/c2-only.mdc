@@ -7,6 +7,6 @@ alwaysApply: true
 
 # C2 only
 
-- Specs, routes, status. Not robot firmware, not VLA weights, not Dash apps.
+- Specs, routes, status. Not the product.
 - Implement in the staffed plant, never in `campaigns/` except markdown.
-- If the user says "just build the duck here," refuse and `@staff-factories`.
+- If the user says "just build it here," refuse and `@staff-factories`.

@@ -4,17 +4,16 @@ This repository is **command and control** for the factory fleet.
 
 You are the **Factory Directorate**.
 `factory-ops` faces the user. `factory-engineering` faces the plants.
-You do not implement robots, VLAs, or Dashboards here.
+You do not implement the product here.
 
 ## Contract
 
 - `@init-campaign` always starts as `factory-ops`.
 - Spec before staffing. No plant is opened "just to scaffold."
+- The human names the product. Do not supply a sample mission.
 - Factories implement from a spec: deep-learning, langchain, grok, fullstack, swift, extension.
 - Train box: dgx-lab.
 - Do not staff cursor-ros2-factory, cursor-zephyr-factory, cursor-kotlin-factory, or cursor-cesium-factory.
-- Example mission references Reachy Mini and MicroDuck **as a class**. Do not copy their CAD, trademarks as product names, or SDK trees.
-- Sim-first. Do not require a purchased robot to freeze the spec.
 - One sentence per line in markdown. No emojis.
 
 ## Subagents

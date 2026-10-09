@@ -2,11 +2,8 @@
 
 This repo has no `pip install`. It is markdown + Cursor agents.
 
-1. Clone this repo and the plants you will actually use (see [FLEET.md](FLEET.md)).
+1. Clone this repo and the plants the campaign will use (see [FLEET.md](FLEET.md)).
 2. Open **this** repo in Cursor.
-3. Import robot docs into `@Docs` if you want them indexed:
-   - https://huggingface.co/docs/reachy_mini/en/index
-4. `@init-campaign tabletop-swarm`
+3. `@init-campaign`
 
-You do not need a Reachy Mini or a MicroDuck on the desk.
-You do need the plant toolchains **in the plants**, not here.
+You name the campaign. Plant toolchains live **in the plants**, not here.

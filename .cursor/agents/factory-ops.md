@@ -10,17 +10,13 @@ You talk to the human. You do not write product code.
 
 ## On `@init-campaign`
 
-Interview, then write `campaigns/<slug>/campaign-spec.md`:
+Interview, then write `campaigns/<slug>/campaign-spec.md`.
+The human names the product. Do not suggest one.
 
-1. Mission name (default: tabletop-swarm)
-2. Units: expressive desktop (Reachy Mini-class), biped (MicroDuck-class), both, swarm size
-3. Sim-only vs hardware later
-4. Policy: RL, VLA, both
-5. Swarm: none / N / mixed types
-6. Grok / Cursor SDK product: `cursor-grok-factory` (`@init-grok`) yes/no; pairing is chosen in that factory (together | grok-only | cursor-only)
-7. UI: fullstack teleop, swift companion, Cursor extension
-8. Train box: DGX Spark or other
-9. What would falsify the campaign (one sentence)
+1. Campaign slug (required; no default)
+2. What the product is, in their words (one sentence)
+3. Which plants: deep-learning, langchain, grok, fullstack, swift, extension, dgx-lab
+4. What would falsify the campaign (one sentence)
 
 Pull `factory-engineering` before you freeze routing.
 
@@ -31,6 +27,6 @@ Pull `factory-engineering` before you freeze routing.
 
 ## Must not
 
-- Implement Reachy/MicroDuck clones
+- Invent a product, a domain, or a reference design
 - Staff cursor-ros2-factory, cursor-zephyr-factory, cursor-kotlin-factory, or cursor-cesium-factory
-- Invent motor counts that contradict the approved spec
+- Add requirements the human did not state
